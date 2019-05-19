@@ -8,14 +8,14 @@
 }
 #header {
     height: 45px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-right: 40px;
     padding-left: 30px;
     background-color: #ECF5F4;
 }
 #lesfest {
     text-decoration: underline;
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -35,19 +35,19 @@
 	text-decoration: none;
 }
 #h1{
-    font-size: 28pt;
+    font-size: 24pt;
     font-weight: bolder;
     text-transform: uppercase;
 	margin-bottom: 15px;
 
 }
 #h2{
-    font-size: 24pt;
+    font-size: 20pt;
 	font-style: italic;
 	margin-top: 15px;
 }
 #h3{
-	font-size: 22pt;
+	font-size: 18pt;
 	margin-top: 15px;
 }
 .hero-image {
