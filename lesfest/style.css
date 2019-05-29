@@ -126,7 +126,7 @@
 		font-size: 22pt;
 	}
 	#scrollbox{
-		height:600px;
+		height:550px;
 		width:100%;
 		overflow:scroll;
 	}
@@ -136,27 +136,50 @@
 		flex-wrap: wrap;
 		margin-bottom: 25px;
 	}
-	
+	.column{
+		display: block;
+    		flex-direction: column;
+    		flex-basis: 100%;
+    		flex: 1;
+		text-align: left;
+		margin-top: 20px;
+	}
+	.columnguest{
+		display: block;
+    		flex-direction: column;
+    		flex-basis: 100%;
+    		flex: 1;
+		text-align: left;
+		margin-top: 35px;
+	}
+	.columnimage{
+		display: block;
+    		flex-direction: column;
+    		flex-basis: 100%;
+    		flex: 1;
+		margin-right: -2%;
+		margin-top: 10px;
+	}
 	.columntime {
-	    display: block;
-	    flex-direction: column;
-	    flex-basis: 100%;
-	    flex: 1;
+    		display: block;
+    		flex-direction: column;
+    		flex-basis: 100%;
+    		flex: 1;
 		font-size: 20pt;
 	}
 	.columnname{
 		display: block;
-	    flex-direction: column;
-	    flex-basis: 100%;
-	    flex: 1;
+    		flex-direction: column;
+    		flex-basis: 100%;
+    		flex: 1;
 		text-align: left;
 	}
 	.columntalk{
-	    display: block;
-	    flex-direction: column;
-	    flex-basis: 100%;
-	    flex: 1;
-	    text-align: right;
+    		display: block;
+    		flex-direction: column;
+    		flex-basis: 100%;
+    		flex: 1;
+    		text-align: right;
 	}
 	.desktop-view ul li {
 	    list-style-type: none;
