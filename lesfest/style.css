@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+
+/*Global*/
+#body{
+    font-family: unna;
+    margin: 0px;
+}
+#header {
+    height: 45px;
+    padding-top: 8px;
+    padding-right: 40px;
+    padding-left: 30px;
+    background-color: #ECF5F4;
+}
+#lesfest {
+    text-decoration: underline;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+#lesfest a {
+    color: #000000;
+}
+#nav {
+    word-spacing: 70px;
+    font-weight: 600;
+	font-size: 13pt;
+    float: right;
+	margin-top: -39px;
+}
+#nav a{
+	color: #000000;
+	text-decoration: none;
+}
+#h1{
+    font-size: 28pt;
+    font-weight: bolder;
+    text-transform: uppercase;
+	margin-bottom: 15px;
+
+}
+#h2{
+    font-size: 24pt;
+	font-style: italic;
+	margin-top: 15px;
+}
+#h3{
+	font-size: 22pt;
+	margin-top: 15px;
+}
+.hero-image {
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 510px;
+    background-image: url(cropped.jpg);
+	padding-top: 10%;
+}
+#main {
+    background: rgba(255, 255, 255, 0.5);
+    background-position: center;
+    background-size: cover;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 50px;
+	text-align: center;
+}
+.program{
+    background-repeat: no-repeat;
+    height: 175px;
+    background-image: url("more cropped.jpeg");
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+	padding-top: 75px;
+	margin-top: 10px;
+	background-attachment: fixed;
+}
+.insidebox{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#big-text{
+	font-size: 26pt;
+    font-weight: bold;
+    text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.bigsmall-text{
+	font-size: 22pt;
+	font-weight: bold;
+	margin-top: 34px;
+	margin-bottom: 15px;
+}
+.back-image{
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    background-image: url("lighter.jpeg");
+	padding-top: 25px;
+	background-attachment: fixed;
+}
+.location{
+	margin-top: 25px;
+	font-size: 22px;
+	margin-bottom: 60px;
+	text-align: center;
+	font-weight: bold;
+}
+#schedule{
+    padding: 75px;
+    font-size: 18pt;
+	background-color: white;
+}
+.sectiontitle{
+	background-color: #d3ebe8;
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 22pt;
+}
+#scrollbox{
+	height:550px;
+	width:100%;
+	overflow:scroll;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+.column{
+	display: block;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+	text-align: left;
+	margin-top: 20px;
+}
+.columnguest{
+	display: block;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+	text-align: left;
+	margin-top: 35px;
+}
+.columnimage{
+	display: block;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+	margin-right: -2%;
+	margin-top: 10px;
+}
+.columntime {
+    display: block;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+	font-size: 20pt;
+}
+.columnname{
+	display: block;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+	text-align: left;
+}
+.columntalk{
+    display: block;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    text-align: right;
+}
+.desktop-view ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.mobile-view {
+    display: none;
+}
+
+/*Tablet*/
+@media (min-width: 401px) and (max-width: 768px){
+	.mobile-view {
+    	display: block;
+		float: right;
+	}
+	.desktop-view {
+    	display: none;
+	}
+	.expand {
+    	display: block;
+		
+	}
+	#nav {
+    	padding-top: 12px;
+	}
+	.hero-image{
+		padding-top: 125px;
+	}
+	#main{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+.desktop-view ul li {
+    display: block;
+    padding: 15px;
+    background-color: #ECF5F4;
+	margin: 3px;
+}
+}
+
+
+/*Phone*/
+@media (max-width: 400px){
+	.mobile-view {
+    	display: block;
+		float: right;
+	}
+	.desktop-view {
+    	display: none;
+	}
+	.expand {
+    	display: block;
+	}
+	.hero-image {
+    	height: 450px;
+		padding-top: 100px;;
+	}
+	#h1{
+		font-size: 16pt;
+	}
+	#h2{
+		font-size: 14pt;
+		margin-top: 8px;
+	}
+	#h3{
+		font-size: 12pt;
+		margin-top: 8px;
+	}
+	#nav {
+    	padding-top: 12px;
+	}
+	#main{
+		margin-left: 10%;
+		margin-right: 10%;
+		padding: 25px;
+	}
+.desktop-view ul li {
+    display: block;
+    padding: 7px;
+	background-color: #ECF5F4;
+	margin: 2px;
+	font-size: 10pt;
+}
+}
